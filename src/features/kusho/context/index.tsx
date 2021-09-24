@@ -14,7 +14,7 @@ import { useAntiqueBoxContract, useBoringHelperContract } from '../../../hooks/u
 
 import { BigNumber } from '@ethersproject/bignumber'
 import Fraction from '../../../entities/Fraction'
-import { antiquebox } from '@sushiswap/sushi-data'
+import { bentobox } from '@sushiswap/sushi-data'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { getAddress } from '@ethersproject/address'
 import { getCurrency } from '../../../functions/currency'
