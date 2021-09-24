@@ -122,7 +122,7 @@ async function getPairs(antiqueBoxContract, chainId: ChainId) {
   }
   if (!success) {
     logs = (
-      (await antiquebox.clones({
+      (await bentobox.clones({
         masterAddress,
         chainId,
       })) as any
