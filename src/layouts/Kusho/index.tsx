@@ -7,7 +7,7 @@ import Main from '../../components/Main'
 import NavLink from '../../components/NavLink'
 import Popups from '../../components/Popups'
 import React from 'react'
-import kushoLogo from '../../../public/kusho-logo.png'
+import kushoLogo from '../../../public/kashi-logo.png'
 import { useRouter } from 'next/router'
 
 interface LayoutProps {
