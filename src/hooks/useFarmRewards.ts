@@ -85,7 +85,7 @@ export default function useFarmRewards() {
 
         const icon = ['0', '3', '4', '8'].includes(pool.id)
           ? `https://raw.githubusercontent.com/sushiswap/icons/master/token/${pool.rewardToken.symbol.toLowerCase()}.jpg`
-          : `https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/${getAddress(
+          : `https://raw.githubusercontent.com/polycity/assets/master/blockchains/ethereum/assets/${getAddress(
               pool.rewarder.rewardToken
             )}/logo.png`
 
